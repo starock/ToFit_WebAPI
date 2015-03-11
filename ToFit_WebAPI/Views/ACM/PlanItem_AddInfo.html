@@ -1,0 +1,338 @@
+﻿
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title></title>
+        <script src="/Content/js/jquery-2.1.3.min.js"></script>
+        
+        
+        <script>
+		
+
+		$(document).ready(function(){
+
+			//alert("haha");
+			
+			$.get("/Plan/GetPlanNameList/",
+			{	  
+			
+			},
+			
+			function(data,status){
+			
+			
+				//alert(data);
+			
+			
+				if(data!="0")
+				
+				{	  
+				
+				var ddl = $("#listPlan");
+ 
+                         //删除节点
+                         //RemoveOption();
+ 
+                         //方法1：添加默认节点 
+                         ddl.append("<option value='-1'>--请选择方案--</option>");
+ 
+                         //方法2：添加默认节点
+                         //ddl[0].options.add(new Option("--请选择--", "-1"));
+ 
+                         //转成Json对象
+                         var result = eval(data);
+ 
+                         //循环遍历 下拉框绑定
+                         $(result).each(function (key) {
+                             //第一种方法
+                             var opt = $("<option></option>").text(result[key].planName).val(result[key].ID);
+                             ddl.append(opt);
+ 
+                             //第二种方法
+                             // var proid = result[key].ProID;
+                             // var proname = result[key].ProName;
+                             //调用自定义方法
+                             //AppendOption(proid, proname);
+                          });
+					 //alert("信息添加成功.");
+					
+					 //window.location.href = "/Plan/Pages/AddInfo/";
+				
+				}
+				
+				else
+				
+				{
+				
+					//alert("添加信息时出错: " + data + "\nStatus: " + status);
+				
+				}
+			}
+			);
+			
+			
+
+
+
+             //Fit/GetNameList/
+
+			$.get("/Fit/GetNameList/",
+			{	  
+			
+			},
+			
+			function(data,status){
+			
+			
+				//alert(data);
+			
+			
+				if(data!="0")
+				
+				{	  
+				
+				var ddl = $("#listFit");
+ 
+                         //删除节点
+                         //RemoveOption();
+ 
+                         //方法1：添加默认节点 
+                         ddl.append("<option value='-1'>--请选择匹配的运动项目--</option>");
+ 
+                         //方法2：添加默认节点
+                         //ddl[0].options.add(new Option("--请选择--", "-1"));
+ 
+                         //转成Json对象
+                         var result = eval(data);
+ 
+                         //循环遍历 下拉框绑定
+                         $(result).each(function (key) {
+                             //第一种方法
+                             var opt = $("<option></option>").text(result[key].name).val(result[key].ID);
+                             ddl.append(opt);
+ 
+                             //第二种方法
+                             // var proid = result[key].ProID;
+                             // var proname = result[key].ProName;
+                             //调用自定义方法
+                             //AppendOption(proid, proname);
+                          });
+					 //alert("信息添加成功.");
+					
+					 //window.location.href = "/Plan/Pages/AddInfo/";
+				
+				}
+				
+				else
+				
+				{
+				
+					//alert("添加信息时出错: " + data + "\nStatus: " + status);
+				
+				}
+			});
+			
+			
+			
+
+
+
+			$("#bSubmit").click(function()
+			{ 
+				
+				
+				if($("#listPlan").val()>=0 && $("#txtItem").val().length>0)
+				{
+					
+					//alert(pDays);
+					
+					var pPlanID =  $("#listPlan").val();
+					var pItemContent = $("#txtItem").val();
+					var pFitID = $("#listFit").val();
+										
+					var pGroup = $("#listGroup").val();
+					var pNumber = $("#listNumber").val();
+					var pUnit = $("#listUnit").val();
+					
+					//alert(pItemContent);
+
+					
+					$.post("/PlanItem/AddInfo/",
+					{	 
+						planID :pPlanID,
+						itemContent :pItemContent,
+						fitID :pFitID,
+						theGroup :pGroup,
+						theNumber :pNumber,
+						theUnit :pUnit
+					
+					},
+					
+					function(data,status)
+					{
+						
+						//alert(data);
+						
+						
+						if(data=="1")
+						{	  
+						
+							 alert("信息添加成功.");
+							
+							 //window.location.href = "/Plan/Pages/AddInfo/";
+							 
+							 $("#itemList").html($("#itemList").html()+"<br/>"+pItemContent);
+					
+							 $("#txtItem").val("");
+						
+						}
+						else
+						{
+						
+							alert("添加信息时出错: " + data + "\nStatus: " + status);
+						
+						}
+					});
+				
+				}
+				else
+				{
+					alert('请将信息填写完整');
+				}
+
+
+			}); 
+
+		   
+			
+
+		});
+		</script>
+</head>
+	<body>
+    
+  
+      <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="30">添加方案详情</td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30">方案名称</td>
+        </tr>
+        <tr>
+          <td height="30"><label for="listPlan"></label>
+            <select name="listPlan" id="listPlan">
+          </select>            <label for="txtName"></label></td>
+        </tr>
+         <tr>
+          <td height="30"><div id="itemList"></div></td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30">计划内容</td>
+        </tr>
+        <tr>
+          <td height="30"><input type="text" id="txtItem" size="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30">选择关联信息</td>
+        </tr>
+        <tr>
+          <td height="30"><select name="listFit" id="listFit">
+          </select></td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30">运动量</td>
+        </tr>
+        <tr>
+          <td height="30">分组
+            <select name="listGroup" id="listGroup">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td height="30">数量
+            <select name="listNumber" id="listNumber">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
+              <option value="100">100</option>
+              
+          </select></td>
+        </tr>
+        <tr>
+          <td height="30">单位
+            <select name="listUnit" id="listUnit">
+              <option value="个" selected>个</option>
+              <option value="分钟">分钟</option>
+              <option value="RM">RM</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30"><input type="button"  id="bSubmit" value="添加"></td>
+        </tr>
+      </table>
+    
+  
+    
+</body>
+</html>

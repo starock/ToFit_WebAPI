@@ -1,0 +1,11 @@
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.BLL.dll
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.BLL.pdb
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DAL.dll
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DM.dll
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DBConn.dll
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DAL.pdb
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DM.pdb
+F:\ToFitService\Suwen.ToFit.BLL\bin\Debug\Suwen.ToFit.DBConn.pdb
+F:\ToFitService\Suwen.ToFit.BLL\obj\Debug\Suwen.ToFit.BLL.csprojResolveAssemblyReference.cache
+F:\ToFitService\Suwen.ToFit.BLL\obj\Debug\Suwen.ToFit.BLL.dll
+F:\ToFitService\Suwen.ToFit.BLL\obj\Debug\Suwen.ToFit.BLL.pdb

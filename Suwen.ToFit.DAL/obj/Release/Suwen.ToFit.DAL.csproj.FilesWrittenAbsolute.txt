@@ -1,0 +1,10 @@
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DAL.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DAL.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/obj/Release/Suwen.ToFit.DAL.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/obj/Release/Suwen.ToFit.DAL.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Newtonsoft.Json.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DBConn.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DBConn.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DM.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DAL/bin/Release/Suwen.ToFit.DM.dll.mdb

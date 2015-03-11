@@ -1,0 +1,5 @@
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DBConn/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DBConn/bin/Release/Suwen.ToFit.DBConn.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DBConn/bin/Release/Suwen.ToFit.DBConn.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DBConn/obj/Release/Suwen.ToFit.DBConn.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DBConn/obj/Release/Suwen.ToFit.DBConn.dll.mdb

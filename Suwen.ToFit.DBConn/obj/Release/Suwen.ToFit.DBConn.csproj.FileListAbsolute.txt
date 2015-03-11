@@ -1,0 +1,4 @@
+F:\ToFitService\Suwen.ToFit.DBConn\bin\Release\Suwen.ToFit.DBConn.dll
+F:\ToFitService\Suwen.ToFit.DBConn\bin\Release\Suwen.ToFit.DBConn.pdb
+F:\ToFitService\Suwen.ToFit.DBConn\obj\Release\Suwen.ToFit.DBConn.dll
+F:\ToFitService\Suwen.ToFit.DBConn\obj\Release\Suwen.ToFit.DBConn.pdb

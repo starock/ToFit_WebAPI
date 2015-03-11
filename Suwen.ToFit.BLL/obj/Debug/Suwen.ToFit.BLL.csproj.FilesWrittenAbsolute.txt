@@ -1,0 +1,15 @@
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.BLL.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.BLL.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/obj/Debug/Suwen.ToFit.BLL.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/obj/Debug/Suwen.ToFit.BLL.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Newtonsoft.Json.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DAL.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DAL.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DM.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DM.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DBConn.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Suwen.ToFit.DBConn.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/GetuiServerApiSDK.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/Google.ProtocolBuffers.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.BLL/bin/Debug/log4net.dll

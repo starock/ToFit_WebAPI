@@ -1,0 +1,5 @@
+F:\ToFitService\Suwen.ToFit.DM\bin\Debug\Suwen.ToFit.DM.dll
+F:\ToFitService\Suwen.ToFit.DM\bin\Debug\Suwen.ToFit.DM.pdb
+F:\ToFitService\Suwen.ToFit.DM\obj\Debug\Suwen.ToFit.DM.dll
+F:\ToFitService\Suwen.ToFit.DM\obj\Debug\Suwen.ToFit.DM.pdb
+F:\ToFitService\Suwen.ToFit.DM\obj\Debug\Suwen.ToFit.DM.csprojResolveAssemblyReference.cache

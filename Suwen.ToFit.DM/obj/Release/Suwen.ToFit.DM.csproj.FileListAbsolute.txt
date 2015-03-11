@@ -1,0 +1,4 @@
+F:\ToFitService\Suwen.ToFit.DM\bin\Release\Suwen.ToFit.DM.dll
+F:\ToFitService\Suwen.ToFit.DM\bin\Release\Suwen.ToFit.DM.pdb
+F:\ToFitService\Suwen.ToFit.DM\obj\Release\Suwen.ToFit.DM.dll
+F:\ToFitService\Suwen.ToFit.DM\obj\Release\Suwen.ToFit.DM.pdb

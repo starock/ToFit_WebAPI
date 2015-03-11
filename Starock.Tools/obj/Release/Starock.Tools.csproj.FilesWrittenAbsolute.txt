@@ -1,0 +1,5 @@
+/Volumes/Star/ToFit_WebAPI/Starock.Tools/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Star/ToFit_WebAPI/Starock.Tools/bin/Release/Starock.Tools.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Starock.Tools/bin/Release/Starock.Tools.dll
+/Volumes/Star/ToFit_WebAPI/Starock.Tools/obj/Release/Starock.Tools.dll
+/Volumes/Star/ToFit_WebAPI/Starock.Tools/obj/Release/Starock.Tools.dll.mdb

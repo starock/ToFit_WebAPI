@@ -1,0 +1,16 @@
+2015-01-30 02:12:41.0682|INFO|ToFit_WebAPI.UserModule|Sample informational message
+2015-01-30 02:12:41.0794|WARN|ToFit_WebAPI.UserModule|Sample warning message
+2015-01-30 02:12:41.0821|ERROR|ToFit_WebAPI.UserModule|Sample error message
+2015-01-30 02:12:41.0824|FATAL|ToFit_WebAPI.UserModule|Sample fatal error message
+2015-01-30 02:26:32.1488|INFO|ToFit_WebAPI.UserModule|Sample informational message
+2015-01-30 02:26:32.1588|WARN|ToFit_WebAPI.UserModule|Sample warning message
+2015-01-30 02:26:32.1625|ERROR|ToFit_WebAPI.UserModule|Sample error message
+2015-01-30 02:26:32.1625|FATAL|ToFit_WebAPI.UserModule|Sample fatal error message
+2015-01-30 02:53:44.3275|INFO|ToFit_WebAPI.UserModule|Sample informational message
+2015-01-30 02:53:44.3418|WARN|ToFit_WebAPI.UserModule|Sample warning message
+2015-01-30 02:53:44.3418|ERROR|ToFit_WebAPI.UserModule|Sample error message
+2015-01-30 02:53:44.3425|FATAL|ToFit_WebAPI.UserModule|Sample fatal error message
+2015-01-30 11:03:01.6416|INFO|ToFit_WebAPI.UserModule|Sample informational message
+2015-01-30 11:03:01.6560|WARN|ToFit_WebAPI.UserModule|Sample warning message
+2015-01-30 11:03:01.6566|ERROR|ToFit_WebAPI.UserModule|Sample error message
+2015-01-30 11:03:01.6566|FATAL|ToFit_WebAPI.UserModule|Sample fatal error message

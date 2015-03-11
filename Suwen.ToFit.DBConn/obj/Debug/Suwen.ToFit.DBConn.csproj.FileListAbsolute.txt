@@ -1,0 +1,5 @@
+F:\ToFitService\Suwen.ToFit.DBConn\bin\Debug\Suwen.ToFit.DBConn.dll
+F:\ToFitService\Suwen.ToFit.DBConn\bin\Debug\Suwen.ToFit.DBConn.pdb
+F:\ToFitService\Suwen.ToFit.DBConn\obj\Debug\Suwen.ToFit.DBConn.dll
+F:\ToFitService\Suwen.ToFit.DBConn\obj\Debug\Suwen.ToFit.DBConn.pdb
+F:\ToFitService\Suwen.ToFit.DBConn\obj\Debug\Suwen.ToFit.DBConn.csprojResolveAssemblyReference.cache

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>等待回复的问题</title>
+
+<script src="/Content/js/jquery-2.1.3.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	
+  
+  
+  //alert("fdaf");
+  
+  //http://2fit.cn:8002/Trainer/GetAskWaiting/
+
+  var GUID = $("#GUID").val();
+
+
+  //alert(GUID);
+
+  $.get("/Trainer/GetAskRecordByGUID/"+GUID,function(data,status)
+  {
+	  
+
+     var jsonData = eval(data);//接收到的数据转化为JQuery对象
+
+     //遍历对象数组，index是数组的索引号，objVal是遍历的一个对象。
+     $.each(jsonData, function(index, objVal) 
+     {   
+        //val["属性"]可取到对应的属性值。  
+         
+
+        var type = objVal["type"];
+        var who = "";
+
+        if(type=="0")
+        {
+        	$("#userID").val(objVal["userID"]);
+
+        	who = "用户"+objVal["userID"]+": ";
+        }
+        else
+        {
+        	$("#trainerID").val(objVal["trainerID"]);
+
+        	who = "教练"+objVal["trainerID"]+": ";
+        }
+
+
+        $("#askList").before("["+objVal["createTime"]+"]<br>"+ who +objVal["words"] +"<br><br>");
+
+     });  
+
+     //alert($("#userID").val());
+  });
+
+
+  $("#bReply").click(function()
+  {
+  	//$(this).hide();
+  	var pUserID = $("#userID").val();
+  	var pTrainerID = $("#trainerID").val();
+  	var pGUID = $("#GUID").val();
+  	var pReply = $("#txtReply").val();
+
+  	if(pReply.length>0)
+  	{
+  		 //alert(pGUID);
+
+		$.post("/Trainer/Reply/",
+		{
+		    userID: pUserID,
+		    trainerID: pTrainerID,
+			GUID: pGUID,
+			words: pReply
+		},
+		function(data,status)
+		{
+			//alert("Data: " + data + "\nStatus: " + status);
+
+			if(data=="{\"result\":1}")
+			{
+				alert("回复成功");
+				$("#txtReply").val("");
+				window.location.href = "/Trainer/Pages/GetAskRecordByGUID/"+pGUID;
+			}
+			else
+			{
+				alert("回复时出错: "+data);
+			}
+		});
+  	}
+  	else
+  	{
+  		alert("请填写回复内容.");
+  	}
+
+
+
+
+  });
+
+  
+});
+
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<a href="/Trainer/Pages/GetAskWaiting/"><<返回问题列表</a><br><br><br>
+
+<div id="askList"></div>
+
+<input id="GUID" type="hidden" value=@Model />
+<input id="userID" type="hidden" value="" />
+<input id="trainerID" type="hidden" value="" />
+
+<textarea  cols="50" rows="10" id="txtReply"></textarea>
+<br />
+<br />
+<input type="button" id="bReply" value="回复用户" />
+
+
+</body>
+</html>

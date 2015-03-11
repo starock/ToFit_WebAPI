@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="ToFit_WebAPI/ToFit_WebAPI.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToFit_WebAPI/Module_API/LessonModule.cs">
+    <Files>
+      <File FileName="Suwen.ToFit.DAL/DAL_LessonNews.cs" Line="184" Column="73" />
+      <File FileName="Suwen.ToFit.BLL/BLL_LessonNews.cs" Line="112" Column="44" />
+      <File FileName="ToFit_WebAPI/Module_API/LessonModule.cs" Line="33" Column="28" />
+      <File FileName="ToFit_WebAPI/Views/Lesson/ShowNews.html" Line="44" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Suwen.ToFit.Push/Suwen.ToFit.Push.csproj</String>
+  </DisabledProjects>
+</Properties>

@@ -1,0 +1,5 @@
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DM/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DM/bin/Debug/Suwen.ToFit.DM.dll.mdb
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DM/bin/Debug/Suwen.ToFit.DM.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DM/obj/Debug/Suwen.ToFit.DM.dll
+/Volumes/Star/ToFit_WebAPI/Suwen.ToFit.DM/obj/Debug/Suwen.ToFit.DM.dll.mdb

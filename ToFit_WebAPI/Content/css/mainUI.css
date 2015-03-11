@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.pageTitle
+{
+	margin-bottom: 20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif,"微软雅黑";
+	font-size:20px;
+
+}
+
+
+footer
+{
+	position:absolute; bottom:0; right:0;
+}
+
+#dvContentMain
+{
+	margin-left:50px;
+	margin-top:50px;
+	width:700px;
+}
+

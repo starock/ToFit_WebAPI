@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToFit_WebAPI", "ToFit_WebAPI\ToFit_WebAPI.csproj", "{ED638DD5-E755-4B7A-940D-5C94AB425686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suwen.ToFit.DBConn", "Suwen.ToFit.DBConn\Suwen.ToFit.DBConn.csproj", "{293EE183-81DB-438A-B793-80925979FC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suwen.ToFit.DAL", "Suwen.ToFit.DAL\Suwen.ToFit.DAL.csproj", "{E183A084-D664-4C52-8D88-D16274D53ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suwen.ToFit.DM", "Suwen.ToFit.DM\Suwen.ToFit.DM.csproj", "{F15DB8F3-1E72-4CE3-BE6A-2969EA942A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suwen.ToFit.BLL", "Suwen.ToFit.BLL\Suwen.ToFit.BLL.csproj", "{A4CD573D-ADE0-4FFF-8F40-D99E922AE5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starock.Tools", "Starock.Tools\Starock.Tools.csproj", "{26E7C40F-8036-4544-8A2A-A9102FBA249A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E7C40F-8036-4544-8A2A-A9102FBA249A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E7C40F-8036-4544-8A2A-A9102FBA249A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E7C40F-8036-4544-8A2A-A9102FBA249A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E7C40F-8036-4544-8A2A-A9102FBA249A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293EE183-81DB-438A-B793-80925979FC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293EE183-81DB-438A-B793-80925979FC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293EE183-81DB-438A-B793-80925979FC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293EE183-81DB-438A-B793-80925979FC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CD573D-ADE0-4FFF-8F40-D99E922AE5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CD573D-ADE0-4FFF-8F40-D99E922AE5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CD573D-ADE0-4FFF-8F40-D99E922AE5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CD573D-ADE0-4FFF-8F40-D99E922AE5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E183A084-D664-4C52-8D88-D16274D53ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E183A084-D664-4C52-8D88-D16274D53ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E183A084-D664-4C52-8D88-D16274D53ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E183A084-D664-4C52-8D88-D16274D53ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED638DD5-E755-4B7A-940D-5C94AB425686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED638DD5-E755-4B7A-940D-5C94AB425686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED638DD5-E755-4B7A-940D-5C94AB425686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED638DD5-E755-4B7A-940D-5C94AB425686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15DB8F3-1E72-4CE3-BE6A-2969EA942A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15DB8F3-1E72-4CE3-BE6A-2969EA942A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15DB8F3-1E72-4CE3-BE6A-2969EA942A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15DB8F3-1E72-4CE3-BE6A-2969EA942A36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
